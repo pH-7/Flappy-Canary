@@ -216,7 +216,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
     func setMessageScoreStyle() -> Void {
         gameOverLabel.fontName = "Helvetica"
-        gameOverLabel.fontSize = 30
+        gameOverLabel.fontSize = 50
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) -> Void {
