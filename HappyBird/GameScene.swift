@@ -17,7 +17,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var background: SKSpriteNode = SKSpriteNode()
     var scoreLabel: SKLabelNode = SKLabelNode()
     var score: Int = 0
-    var gameOver = false
+    var gameOver: Bool = false
     var gameOverLabel: SKLabelNode = SKLabelNode()
     var timer: Timer = Timer()
 
