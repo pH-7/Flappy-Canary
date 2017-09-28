@@ -15,6 +15,8 @@ YES, I'm **[Pierre-Henry Soria](http://ph7.me/)** :smiley:
 You can send an email at **HI {AT} pH7 [D0T] ME**
 
 
+![Flappy Bird Clone Game, iOS 11, Swift 4](flappycanary.png)
+
 ## License
 
 [MIT License](http://opensource.org/licenses/mit-license.php)

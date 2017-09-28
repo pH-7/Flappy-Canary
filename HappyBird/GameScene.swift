@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  HappyBird
 //
-//  Created by PH Soria on 25/09/2017.
+//  Created by Pierre-Henry Soria on 25/09/2017.
 //  Copyright © 2017 Pierre-Henry Soria. All rights reserved.
 //
 
@@ -27,7 +27,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         case Gap = 4
     }
 
-    override func didMove(to view: SKView) {
+    override func didMove(to view: SKView) -> Void {
         self.physicsWorld.contactDelegate = self
 
         setUpGame()
@@ -108,7 +108,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     @objc func drawPipes() -> Void {
         let gapHeight = bird.size.height * 4
 
-        let movePipes = SKAction.move(by: CGVector(dx: -2 * self.frame.width, dy: 0), duration: TimeInterval(self.frame.width / 100))
+        let movePipes = SKAction.move(
+            by: CGVector(dx: -2 * self.frame.width, dy: 0),
+            duration: TimeInterval(self.frame.width / 100)
+        )
+
         let removePipes = SKAction.removeFromParent()
 
         let movementAmount = arc4random() % UInt32(self.frame.height / 2)
@@ -193,18 +197,18 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         self.addChild(gap)
     }
-    
+
     func makeGround() -> Void {
         let ground = SKNode()
         ground.position = CGPoint(x: self.frame.midX, y: -self.frame.height / 2)
         ground.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: self.frame.width, height: 1))
-        
+
         ground.physicsBody!.isDynamic = false
-        
+
         ground.physicsBody!.contactTestBitMask = ColliderType.Object.rawValue
         ground.physicsBody!.categoryBitMask = ColliderType.Object.rawValue
         ground.physicsBody!.collisionBitMask = ColliderType.Object.rawValue
-        
+
         self.addChild(ground)
     }
 
