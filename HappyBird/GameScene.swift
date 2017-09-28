@@ -49,8 +49,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
 
     func drawBird() -> Void {
-        let birdTexture = SKTexture(imageNamed: "flappy1.png")
-        let birdTexture2 = SKTexture(imageNamed: "flappy2.png")
+        let birdTexture = SKTexture(imageNamed: "canary1.png")
+        let birdTexture2 = SKTexture(imageNamed: "canary2.png")
 
         let animation = SKAction.animate(with: [birdTexture, birdTexture2], timePerFrame: birdTimePerFrame)
         let makeBirdFlap = SKAction.repeatForever(animation)
