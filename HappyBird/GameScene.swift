@@ -137,6 +137,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 setMessageScoreStyle()
                 gameOverLabel.text = "Game Over! :-("
                 gameOverLabel.position = CGPoint(x: self.frame.midY, y: self.frame.midY)
+
                 self.addChild(gameOverLabel)
             }
         }
