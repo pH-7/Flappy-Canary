@@ -71,18 +71,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         self.addChild(bird)
 
-        // TODO Has to be moved into a func
-        let ground = SKNode()
-        ground.position = CGPoint(x: self.frame.midX, y: -self.frame.height / 2)
-        ground.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: self.frame.width, height: 1))
-
-        ground.physicsBody!.isDynamic = false
-
-        ground.physicsBody!.contactTestBitMask = ColliderType.Object.rawValue
-        ground.physicsBody!.categoryBitMask = ColliderType.Object.rawValue
-        ground.physicsBody!.collisionBitMask = ColliderType.Object.rawValue
-
-        self.addChild(ground)
+        makeGround()
 
         self.setScoreStyle()
 
@@ -132,7 +121,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         makeGap(moveAndRemovePipes, gapHeight, pipeOffset)
     }
 
-    func didBegin(_ contact: SKPhysicsContact) {
+    func didBegin(_ contact: SKPhysicsContact) -> Void {
         if gameOver == false {
             if contact.bodyA.categoryBitMask == ColliderType.Gap.rawValue ||
                 contact.bodyB.categoryBitMask == ColliderType.Gap.rawValue {
@@ -203,6 +192,20 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         gap.physicsBody!.collisionBitMask = ColliderType.Gap.rawValue
 
         self.addChild(gap)
+    }
+    
+    func makeGround() -> Void {
+        let ground = SKNode()
+        ground.position = CGPoint(x: self.frame.midX, y: -self.frame.height / 2)
+        ground.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: self.frame.width, height: 1))
+        
+        ground.physicsBody!.isDynamic = false
+        
+        ground.physicsBody!.contactTestBitMask = ColliderType.Object.rawValue
+        ground.physicsBody!.categoryBitMask = ColliderType.Object.rawValue
+        ground.physicsBody!.collisionBitMask = ColliderType.Object.rawValue
+        
+        self.addChild(ground)
     }
 
     func setScoreStyle() -> Void {
