@@ -67,7 +67,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         bird.physicsBody!.contactTestBitMask = ColliderType.Object.rawValue
         bird.physicsBody!.categoryBitMask = ColliderType.Bird.rawValue
-        bird.physicsBody!.contactTestBitMask = ColliderType.Bird.rawValue
+        bird.physicsBody!.collisionBitMask = ColliderType.Bird.rawValue
 
         self.addChild(bird)
 
@@ -80,7 +80,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         ground.physicsBody!.contactTestBitMask = ColliderType.Object.rawValue
         ground.physicsBody!.categoryBitMask = ColliderType.Object.rawValue
-        ground.physicsBody!.contactTestBitMask = ColliderType.Object.rawValue
+        ground.physicsBody!.collisionBitMask = ColliderType.Object.rawValue
 
         self.addChild(ground)
 
@@ -134,7 +134,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
     func didBegin(_ contact: SKPhysicsContact) {
         if gameOver == false {
-            if  contact.bodyA.categoryBitMask == ColliderType.Gap.rawValue ||
+            if contact.bodyA.categoryBitMask == ColliderType.Gap.rawValue ||
                 contact.bodyB.categoryBitMask == ColliderType.Gap.rawValue {
                 score += 1
                 scoreLabel.text = String(score)
@@ -160,7 +160,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         pipe1.physicsBody!.contactTestBitMask = ColliderType.Object.rawValue
         pipe1.physicsBody!.categoryBitMask = ColliderType.Object.rawValue
-        pipe1.physicsBody!.contactTestBitMask = ColliderType.Object.rawValue
+        pipe1.physicsBody!.collisionBitMask = ColliderType.Object.rawValue
         setPipePosition(pipe1)
 
         self.addChild(pipe1)
@@ -177,7 +177,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         pipe2.physicsBody!.contactTestBitMask = ColliderType.Object.rawValue
         pipe2.physicsBody!.categoryBitMask = ColliderType.Object.rawValue
-        pipe2.physicsBody!.contactTestBitMask = ColliderType.Object.rawValue
+        pipe2.physicsBody!.collisionBitMask = ColliderType.Object.rawValue
         setPipePosition(pipe2)
 
         self.addChild(pipe2)
@@ -200,7 +200,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         gap.physicsBody!.contactTestBitMask = ColliderType.Bird.rawValue
         gap.physicsBody!.categoryBitMask = ColliderType.Gap.rawValue
-        gap.physicsBody!.contactTestBitMask = ColliderType.Gap.rawValue
+        gap.physicsBody!.collisionBitMask = ColliderType.Gap.rawValue
 
         self.addChild(gap)
     }
