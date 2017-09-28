@@ -42,11 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5815357A1F7D56A3007B4BAF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = SOURCE_ROOT; };
-		5815357B1F7D56A3007B4BAF /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = SOURCE_ROOT; };
-		5815357C1F7D56A3007B4BAF /* canary2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canary2.png; sourceTree = SOURCE_ROOT; };
-		5815357D1F7D56A3007B4BAF /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe1.png; sourceTree = SOURCE_ROOT; };
-		5815357E1F7D56A4007B4BAF /* canary1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canary1.png; sourceTree = SOURCE_ROOT; };
+		5815357A1F7D56A3007B4BAF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = HappyBird/background.png; sourceTree = SOURCE_ROOT; };
+		5815357B1F7D56A3007B4BAF /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pipe2.png; path = HappyBird/pipe2.png; sourceTree = SOURCE_ROOT; };
+		5815357C1F7D56A3007B4BAF /* canary2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = canary2.png; path = HappyBird/canary2.png; sourceTree = SOURCE_ROOT; };
+		5815357D1F7D56A3007B4BAF /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pipe1.png; path = HappyBird/pipe1.png; sourceTree = SOURCE_ROOT; };
+		5815357E1F7D56A4007B4BAF /* canary1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = canary1.png; path = HappyBird/canary1.png; sourceTree = SOURCE_ROOT; };
 		587FAD1A1F7D4B55006E55B3 /* HappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587FAD1D1F7D4B55006E55B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		587FAD1F1F7D4B55006E55B3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
