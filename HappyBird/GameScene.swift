@@ -92,14 +92,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func drawBackground() {
         let bgTexture = SKTexture(imageNamed: "background.png")
 
-        let moveBgAnimation = SKAction.move(by: CGVector(dx: bgTexture.size().width, dy: 0), duration: 5)
+        let moveBgAnimation = SKAction.move(by: CGVector(dx: -bgTexture.size().width, dy: 0), duration: 7)
         let shiftBgAnimation = SKAction.move(by: CGVector(dx: bgTexture.size().width, dy: 0), duration: 0)
         let bgAnimation = SKAction.sequence([moveBgAnimation, shiftBgAnimation])
         let moveBgForever = SKAction.repeatForever(bgAnimation)
 
         var i: CGFloat = 0
 
-        while (i < 3) {
+        while i < 3 {
             background = SKSpriteNode(texture: bgTexture)
             background.position = CGPoint(x: bgTexture.size().width * i, y: self.frame.midY)
             background.size.height = self.frame.height
