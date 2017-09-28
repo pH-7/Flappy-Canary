@@ -1,8 +1,8 @@
-# Swift4, iOS FlappyBird App
+# Swift4, iOS FlappyBird Clone App
 
 ## Intro
 
-Another Flappy Bird like app. This iOS (iPhone) app is a simple **Flappy Bird** like, game, built with Swift 4  and Xcode 9.
+Another Flappy Bird like game. This iOS (iPhone) app is a simple **Flappy Bird** like, game, built with Swift 4  and Xcode 9.
 
 
 ## The Author
