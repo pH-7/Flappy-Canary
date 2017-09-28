@@ -145,7 +145,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func makePipe1(_ moveAndRemovePipes: SKAction, _ gapHeight: CGFloat, _ pipeOffset: CGFloat) -> Void {
         let pipeTexture = SKTexture(imageNamed: "pipe1.png")
         let pipe1 = SKSpriteNode(texture: pipeTexture)
-        pipe1.position = CGPoint(x: self.frame.midX + self.frame.width, y: self.frame.midY + pipeTexture.size().height / 2 + gapHeight / 2 + pipeOffset)
+        pipe1.position = CGPoint(
+            x: self.frame.midX + self.frame.width,
+            y: self.frame.midY + pipeTexture.size().height / 2 + gapHeight / 2 + pipeOffset
+        )
         pipe1.run(moveAndRemovePipes)
 
         pipe1.physicsBody = SKPhysicsBody(rectangleOf: pipeTexture.size())
@@ -162,7 +165,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func makePipe2(_ moveAndRemovePipes: SKAction, _ gapHeight: CGFloat, _ pipeOffset: CGFloat) -> Void {
         let pipe2Texture = SKTexture(imageNamed: "pipe2.png")
         let pipe2 = SKSpriteNode(texture: pipe2Texture)
-        pipe2.position = CGPoint(x: self.frame.midX + self.frame.width, y: self.frame.midY - pipe2Texture.size().height / 2 - gapHeight / 2  + pipeOffset)
+        pipe2.position = CGPoint(
+            x: self.frame.midX + self.frame.width,
+            y: self.frame.midY - pipe2Texture.size().height / 2 - gapHeight / 2  + pipeOffset
+        )
         pipe2.run(moveAndRemovePipes)
 
         pipe2.physicsBody = SKPhysicsBody(rectangleOf: pipe2Texture.size())
