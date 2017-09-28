@@ -100,7 +100,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         var i: CGFloat = 0
 
-        while i < 3 {
+        while i < maxTimeBgMoving {
             background = SKSpriteNode(texture: bgTexture)
             background.position = CGPoint(x: bgTexture.size().width * i, y: self.frame.midY)
             background.size.height = self.frame.height
