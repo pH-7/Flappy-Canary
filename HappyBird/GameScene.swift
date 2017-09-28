@@ -230,11 +230,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func startGame() -> Void {
         gameOver = false
         score = 0
-        speed = 1
+        self.speed = 1
     }
 
     func resetGame() -> Void {
-        speed = 0
+        self.speed = 0
         gameOver = true
         timer.invalidate()
     }
