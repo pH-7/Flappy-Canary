@@ -11,12 +11,13 @@ import GameplayKit
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
     let birdTimePerFrame = 0.1
+    let maxTimeBgMoving: CGFloat = 3
 
     var bird: SKSpriteNode = SKSpriteNode()
     var background: SKSpriteNode = SKSpriteNode()
     var scoreLabel: SKLabelNode = SKLabelNode()
     var score: Int = 0
-    var gameOver: Bool = false
+    var gameOver = false
     var gameOverLabel: SKLabelNode = SKLabelNode()
     var timer: Timer = Timer()
 
@@ -33,7 +34,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
     }
 
-    func setUpGame() {
+    func setUpGame() -> Void {
         timer = Timer.scheduledTimer(
             timeInterval: 3,
              target: self,
@@ -47,7 +48,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         drawPipes()
     }
 
-    func drawBird() {
+    func drawBird() -> Void {
         let birdTexture = SKTexture(imageNamed: "flappy1.png")
         let birdTexture2 = SKTexture(imageNamed: "flappy2.png")
 
@@ -89,7 +90,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.addChild(scoreLabel)
     }
 
-    func drawBackground() {
+    func drawBackground() -> Void {
         let bgTexture = SKTexture(imageNamed: "background.png")
 
         let moveBgAnimation = SKAction.move(by: CGVector(dx: -bgTexture.size().width, dy: 0), duration: 7)
@@ -115,7 +116,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
 
     // Draws the pipes and move them around the bird
-    @objc func drawPipes() {
+    @objc func drawPipes() -> Void {
         let gapHeight = bird.size.height * 4
 
         let movePipes = SKAction.move(by: CGVector(dx: -2 * self.frame.width, dy: 0), duration: TimeInterval(self.frame.width / 100))
@@ -183,7 +184,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
 
     // Set the pipe second position after background
-    func setPipePosition(_ pipe: SKSpriteNode) {
+    func setPipePosition(_ pipe: SKSpriteNode) -> Void {
         pipe.zPosition = -1
     }
 
@@ -215,7 +216,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         gameOverLabel.fontSize = 30
     }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) -> Void {
         if gameOver == false {
             bird.physicsBody!.isDynamic = true
             bird.physicsBody!.velocity = CGVector(dx: 0, dy: 0)
