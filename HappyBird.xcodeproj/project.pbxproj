@@ -1,4 +1,72 @@
-// !$*UTF8*$!
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xcuserstate
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+.build/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Mac OS System
+.DS_Store*
+._*// !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -38,10 +106,10 @@
 
 /* Begin PBXFileReference section */
 		580598811F79A8570093C8E3 /* HappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		580598841F79A8570093C8E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		580598861F79A8570093C8E3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		580598841F79A8570093C8E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = /Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/AppDelegate.swift; sourceTree = "<absolute>"; };
+		580598861F79A8570093C8E3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = /Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/GameScene.sks; sourceTree = "<absolute>"; };
 		580598881F79A8570093C8E3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		5805988A1F79A8570093C8E3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5805988A1F79A8570093C8E3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = /Applications/Xcode.app/Contents/Developer/../../../../Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/GameScene.swift; sourceTree = "<absolute>"; };
 		5805988C1F79A8570093C8E3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5805988F1F79A8570093C8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		580598911F79A8570093C8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +121,12 @@
 		580598A61F79A8570093C8E3 /* HappyBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		580598AA1F79A8570093C8E3 /* HappyBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirdUITests.swift; sourceTree = "<group>"; };
 		580598AC1F79A8570093C8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580598B81F7A68F70093C8E3 /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pipe1.png; path = ../../../../Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/pipe1.png; sourceTree = DEVELOPER_DIR; };
+		580598B91F7A68F70093C8E3 /* flappy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappy1.png; path = /Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/flappy1.png; sourceTree = "<absolute>"; };
+		580598BA1F7A68F70093C8E3 /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
+		580598BB1F7A68F70093C8E3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		580598BC1F7A68F70093C8E3 /* flappy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappy2.png; path = /Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/flappy2.png; sourceTree = "<absolute>"; };
+		58B088271F7CB35B00B33149 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +157,7 @@
 		580598781F79A8570093C8E3 = {
 			isa = PBXGroup;
 			children = (
+				58B088271F7CB35B00B33149 /* README.md */,
 				580598831F79A8570093C8E3 /* HappyBird */,
 				5805989E1F79A8570093C8E3 /* HappyBirdTests */,
 				580598A91F79A8570093C8E3 /* HappyBirdUITests */,
@@ -103,6 +178,11 @@
 		580598831F79A8570093C8E3 /* HappyBird */ = {
 			isa = PBXGroup;
 			children = (
+				580598B91F7A68F70093C8E3 /* flappy1.png */,
+				580598BB1F7A68F70093C8E3 /* background.png */,
+				580598BC1F7A68F70093C8E3 /* flappy2.png */,
+				580598B81F7A68F70093C8E3 /* pipe1.png */,
+				580598BA1F7A68F70093C8E3 /* pipe2.png */,
 				580598841F79A8570093C8E3 /* AppDelegate.swift */,
 				580598861F79A8570093C8E3 /* GameScene.sks */,
 				580598881F79A8570093C8E3 /* Actions.sks */,
@@ -444,7 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.ph7.HappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,7 +538,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.ph7.HappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
