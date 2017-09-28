@@ -1,72 +1,4 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
-## Build generated
-build/
-DerivedData/
-
-## Various settings
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
-
-## Other
-*.moved-aside
-*.xcuserstate
-
-## Obj-C/Swift specific
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
-
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
-
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-.build/
-
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
-
-Carthage/Build
-
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
-
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-
-# Mac OS System
-.DS_Store*
-._*// !$*UTF8*$!
+// !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -75,76 +7,70 @@ fastlane/test_output
 	objects = {
 
 /* Begin PBXBuildFile section */
-		580598851F79A8570093C8E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580598841F79A8570093C8E3 /* AppDelegate.swift */; };
-		580598871F79A8570093C8E3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 580598861F79A8570093C8E3 /* GameScene.sks */; };
-		580598891F79A8570093C8E3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 580598881F79A8570093C8E3 /* Actions.sks */; };
-		5805988B1F79A8570093C8E3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805988A1F79A8570093C8E3 /* GameScene.swift */; };
-		5805988D1F79A8570093C8E3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805988C1F79A8570093C8E3 /* GameViewController.swift */; };
-		580598901F79A8570093C8E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5805988E1F79A8570093C8E3 /* Main.storyboard */; };
-		580598921F79A8570093C8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580598911F79A8570093C8E3 /* Assets.xcassets */; };
-		580598951F79A8570093C8E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580598931F79A8570093C8E3 /* LaunchScreen.storyboard */; };
-		580598A01F79A8570093C8E3 /* HappyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805989F1F79A8570093C8E3 /* HappyBirdTests.swift */; };
-		580598AB1F79A8570093C8E3 /* HappyBirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580598AA1F79A8570093C8E3 /* HappyBirdUITests.swift */; };
+		587FAD1E1F7D4B55006E55B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FAD1D1F7D4B55006E55B3 /* AppDelegate.swift */; };
+		587FAD201F7D4B55006E55B3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 587FAD1F1F7D4B55006E55B3 /* GameScene.sks */; };
+		587FAD221F7D4B55006E55B3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 587FAD211F7D4B55006E55B3 /* Actions.sks */; };
+		587FAD241F7D4B55006E55B3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FAD231F7D4B55006E55B3 /* GameScene.swift */; };
+		587FAD261F7D4B55006E55B3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FAD251F7D4B55006E55B3 /* GameViewController.swift */; };
+		587FAD291F7D4B55006E55B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587FAD271F7D4B55006E55B3 /* Main.storyboard */; };
+		587FAD2B1F7D4B55006E55B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587FAD2A1F7D4B55006E55B3 /* Assets.xcassets */; };
+		587FAD2E1F7D4B55006E55B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587FAD2C1F7D4B55006E55B3 /* LaunchScreen.storyboard */; };
+		587FAD391F7D4B55006E55B3 /* HappyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FAD381F7D4B55006E55B3 /* HappyBirdTests.swift */; };
+		587FAD441F7D4B55006E55B3 /* HappyBirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FAD431F7D4B55006E55B3 /* HappyBirdUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5805989C1F79A8570093C8E3 /* PBXContainerItemProxy */ = {
+		587FAD351F7D4B55006E55B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 580598791F79A8570093C8E3 /* Project object */;
+			containerPortal = 587FAD121F7D4B54006E55B3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 580598801F79A8570093C8E3;
+			remoteGlobalIDString = 587FAD191F7D4B54006E55B3;
 			remoteInfo = HappyBird;
 		};
-		580598A71F79A8570093C8E3 /* PBXContainerItemProxy */ = {
+		587FAD401F7D4B55006E55B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 580598791F79A8570093C8E3 /* Project object */;
+			containerPortal = 587FAD121F7D4B54006E55B3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 580598801F79A8570093C8E3;
+			remoteGlobalIDString = 587FAD191F7D4B54006E55B3;
 			remoteInfo = HappyBird;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		580598811F79A8570093C8E3 /* HappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		580598841F79A8570093C8E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = /Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/AppDelegate.swift; sourceTree = "<absolute>"; };
-		580598861F79A8570093C8E3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = /Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/GameScene.sks; sourceTree = "<absolute>"; };
-		580598881F79A8570093C8E3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		5805988A1F79A8570093C8E3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = /Applications/Xcode.app/Contents/Developer/../../../../Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/GameScene.swift; sourceTree = "<absolute>"; };
-		5805988C1F79A8570093C8E3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		5805988F1F79A8570093C8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		580598911F79A8570093C8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		580598941F79A8570093C8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		580598961F79A8570093C8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5805989B1F79A8570093C8E3 /* HappyBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5805989F1F79A8570093C8E3 /* HappyBirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirdTests.swift; sourceTree = "<group>"; };
-		580598A11F79A8570093C8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		580598A61F79A8570093C8E3 /* HappyBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		580598AA1F79A8570093C8E3 /* HappyBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirdUITests.swift; sourceTree = "<group>"; };
-		580598AC1F79A8570093C8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		580598B81F7A68F70093C8E3 /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pipe1.png; path = ../../../../Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/pipe1.png; sourceTree = DEVELOPER_DIR; };
-		580598B91F7A68F70093C8E3 /* flappy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappy1.png; path = /Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/flappy1.png; sourceTree = "<absolute>"; };
-		580598BA1F7A68F70093C8E3 /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
-		580598BB1F7A68F70093C8E3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		580598BC1F7A68F70093C8E3 /* flappy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappy2.png; path = /Users/phenry/Documents/SwiftProjects/HappyBird/HappyBird/flappy2.png; sourceTree = "<absolute>"; };
-		58B088271F7CB35B00B33149 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		587FAD1A1F7D4B55006E55B3 /* HappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587FAD1D1F7D4B55006E55B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		587FAD1F1F7D4B55006E55B3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		587FAD211F7D4B55006E55B3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		587FAD231F7D4B55006E55B3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		587FAD251F7D4B55006E55B3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		587FAD281F7D4B55006E55B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		587FAD2A1F7D4B55006E55B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		587FAD2D1F7D4B55006E55B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		587FAD2F1F7D4B55006E55B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587FAD341F7D4B55006E55B3 /* HappyBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		587FAD381F7D4B55006E55B3 /* HappyBirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirdTests.swift; sourceTree = "<group>"; };
+		587FAD3A1F7D4B55006E55B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587FAD3F1F7D4B55006E55B3 /* HappyBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		587FAD431F7D4B55006E55B3 /* HappyBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirdUITests.swift; sourceTree = "<group>"; };
+		587FAD451F7D4B55006E55B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5805987E1F79A8570093C8E3 /* Frameworks */ = {
+		587FAD171F7D4B54006E55B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		580598981F79A8570093C8E3 /* Frameworks */ = {
+		587FAD311F7D4B55006E55B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		580598A31F79A8570093C8E3 /* Frameworks */ = {
+		587FAD3C1F7D4B55006E55B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,62 +80,56 @@ fastlane/test_output
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		580598781F79A8570093C8E3 = {
+		587FAD111F7D4B54006E55B3 = {
 			isa = PBXGroup;
 			children = (
-				58B088271F7CB35B00B33149 /* README.md */,
-				580598831F79A8570093C8E3 /* HappyBird */,
-				5805989E1F79A8570093C8E3 /* HappyBirdTests */,
-				580598A91F79A8570093C8E3 /* HappyBirdUITests */,
-				580598821F79A8570093C8E3 /* Products */,
+				587FAD1C1F7D4B55006E55B3 /* HappyBird */,
+				587FAD371F7D4B55006E55B3 /* HappyBirdTests */,
+				587FAD421F7D4B55006E55B3 /* HappyBirdUITests */,
+				587FAD1B1F7D4B55006E55B3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		580598821F79A8570093C8E3 /* Products */ = {
+		587FAD1B1F7D4B55006E55B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				580598811F79A8570093C8E3 /* HappyBird.app */,
-				5805989B1F79A8570093C8E3 /* HappyBirdTests.xctest */,
-				580598A61F79A8570093C8E3 /* HappyBirdUITests.xctest */,
+				587FAD1A1F7D4B55006E55B3 /* HappyBird.app */,
+				587FAD341F7D4B55006E55B3 /* HappyBirdTests.xctest */,
+				587FAD3F1F7D4B55006E55B3 /* HappyBirdUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		580598831F79A8570093C8E3 /* HappyBird */ = {
+		587FAD1C1F7D4B55006E55B3 /* HappyBird */ = {
 			isa = PBXGroup;
 			children = (
-				580598B91F7A68F70093C8E3 /* flappy1.png */,
-				580598BB1F7A68F70093C8E3 /* background.png */,
-				580598BC1F7A68F70093C8E3 /* flappy2.png */,
-				580598B81F7A68F70093C8E3 /* pipe1.png */,
-				580598BA1F7A68F70093C8E3 /* pipe2.png */,
-				580598841F79A8570093C8E3 /* AppDelegate.swift */,
-				580598861F79A8570093C8E3 /* GameScene.sks */,
-				580598881F79A8570093C8E3 /* Actions.sks */,
-				5805988A1F79A8570093C8E3 /* GameScene.swift */,
-				5805988C1F79A8570093C8E3 /* GameViewController.swift */,
-				5805988E1F79A8570093C8E3 /* Main.storyboard */,
-				580598911F79A8570093C8E3 /* Assets.xcassets */,
-				580598931F79A8570093C8E3 /* LaunchScreen.storyboard */,
-				580598961F79A8570093C8E3 /* Info.plist */,
+				587FAD1D1F7D4B55006E55B3 /* AppDelegate.swift */,
+				587FAD1F1F7D4B55006E55B3 /* GameScene.sks */,
+				587FAD211F7D4B55006E55B3 /* Actions.sks */,
+				587FAD231F7D4B55006E55B3 /* GameScene.swift */,
+				587FAD251F7D4B55006E55B3 /* GameViewController.swift */,
+				587FAD271F7D4B55006E55B3 /* Main.storyboard */,
+				587FAD2A1F7D4B55006E55B3 /* Assets.xcassets */,
+				587FAD2C1F7D4B55006E55B3 /* LaunchScreen.storyboard */,
+				587FAD2F1F7D4B55006E55B3 /* Info.plist */,
 			);
 			path = HappyBird;
 			sourceTree = "<group>";
 		};
-		5805989E1F79A8570093C8E3 /* HappyBirdTests */ = {
+		587FAD371F7D4B55006E55B3 /* HappyBirdTests */ = {
 			isa = PBXGroup;
 			children = (
-				5805989F1F79A8570093C8E3 /* HappyBirdTests.swift */,
-				580598A11F79A8570093C8E3 /* Info.plist */,
+				587FAD381F7D4B55006E55B3 /* HappyBirdTests.swift */,
+				587FAD3A1F7D4B55006E55B3 /* Info.plist */,
 			);
 			path = HappyBirdTests;
 			sourceTree = "<group>";
 		};
-		580598A91F79A8570093C8E3 /* HappyBirdUITests */ = {
+		587FAD421F7D4B55006E55B3 /* HappyBirdUITests */ = {
 			isa = PBXGroup;
 			children = (
-				580598AA1F79A8570093C8E3 /* HappyBirdUITests.swift */,
-				580598AC1F79A8570093C8E3 /* Info.plist */,
+				587FAD431F7D4B55006E55B3 /* HappyBirdUITests.swift */,
+				587FAD451F7D4B55006E55B3 /* Info.plist */,
 			);
 			path = HappyBirdUITests;
 			sourceTree = "<group>";
@@ -217,13 +137,13 @@ fastlane/test_output
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		580598801F79A8570093C8E3 /* HappyBird */ = {
+		587FAD191F7D4B54006E55B3 /* HappyBird */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 580598AF1F79A8570093C8E3 /* Build configuration list for PBXNativeTarget "HappyBird" */;
+			buildConfigurationList = 587FAD481F7D4B55006E55B3 /* Build configuration list for PBXNativeTarget "HappyBird" */;
 			buildPhases = (
-				5805987D1F79A8570093C8E3 /* Sources */,
-				5805987E1F79A8570093C8E3 /* Frameworks */,
-				5805987F1F79A8570093C8E3 /* Resources */,
+				587FAD161F7D4B54006E55B3 /* Sources */,
+				587FAD171F7D4B54006E55B3 /* Frameworks */,
+				587FAD181F7D4B54006E55B3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -231,72 +151,72 @@ fastlane/test_output
 			);
 			name = HappyBird;
 			productName = HappyBird;
-			productReference = 580598811F79A8570093C8E3 /* HappyBird.app */;
+			productReference = 587FAD1A1F7D4B55006E55B3 /* HappyBird.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5805989A1F79A8570093C8E3 /* HappyBirdTests */ = {
+		587FAD331F7D4B55006E55B3 /* HappyBirdTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 580598B21F79A8570093C8E3 /* Build configuration list for PBXNativeTarget "HappyBirdTests" */;
+			buildConfigurationList = 587FAD4B1F7D4B55006E55B3 /* Build configuration list for PBXNativeTarget "HappyBirdTests" */;
 			buildPhases = (
-				580598971F79A8570093C8E3 /* Sources */,
-				580598981F79A8570093C8E3 /* Frameworks */,
-				580598991F79A8570093C8E3 /* Resources */,
+				587FAD301F7D4B55006E55B3 /* Sources */,
+				587FAD311F7D4B55006E55B3 /* Frameworks */,
+				587FAD321F7D4B55006E55B3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5805989D1F79A8570093C8E3 /* PBXTargetDependency */,
+				587FAD361F7D4B55006E55B3 /* PBXTargetDependency */,
 			);
 			name = HappyBirdTests;
 			productName = HappyBirdTests;
-			productReference = 5805989B1F79A8570093C8E3 /* HappyBirdTests.xctest */;
+			productReference = 587FAD341F7D4B55006E55B3 /* HappyBirdTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		580598A51F79A8570093C8E3 /* HappyBirdUITests */ = {
+		587FAD3E1F7D4B55006E55B3 /* HappyBirdUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 580598B51F79A8570093C8E3 /* Build configuration list for PBXNativeTarget "HappyBirdUITests" */;
+			buildConfigurationList = 587FAD4E1F7D4B55006E55B3 /* Build configuration list for PBXNativeTarget "HappyBirdUITests" */;
 			buildPhases = (
-				580598A21F79A8570093C8E3 /* Sources */,
-				580598A31F79A8570093C8E3 /* Frameworks */,
-				580598A41F79A8570093C8E3 /* Resources */,
+				587FAD3B1F7D4B55006E55B3 /* Sources */,
+				587FAD3C1F7D4B55006E55B3 /* Frameworks */,
+				587FAD3D1F7D4B55006E55B3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				580598A81F79A8570093C8E3 /* PBXTargetDependency */,
+				587FAD411F7D4B55006E55B3 /* PBXTargetDependency */,
 			);
 			name = HappyBirdUITests;
 			productName = HappyBirdUITests;
-			productReference = 580598A61F79A8570093C8E3 /* HappyBirdUITests.xctest */;
+			productReference = 587FAD3F1F7D4B55006E55B3 /* HappyBirdUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		580598791F79A8570093C8E3 /* Project object */ = {
+		587FAD121F7D4B54006E55B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Pierre-Henry Soria";
 				TargetAttributes = {
-					580598801F79A8570093C8E3 = {
+					587FAD191F7D4B54006E55B3 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					5805989A1F79A8570093C8E3 = {
+					587FAD331F7D4B55006E55B3 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 580598801F79A8570093C8E3;
+						TestTargetID = 587FAD191F7D4B54006E55B3;
 					};
-					580598A51F79A8570093C8E3 = {
+					587FAD3E1F7D4B55006E55B3 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 580598801F79A8570093C8E3;
+						TestTargetID = 587FAD191F7D4B54006E55B3;
 					};
 				};
 			};
-			buildConfigurationList = 5805987C1F79A8570093C8E3 /* Build configuration list for PBXProject "HappyBird" */;
+			buildConfigurationList = 587FAD151F7D4B54006E55B3 /* Build configuration list for PBXProject "HappyBird" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -304,39 +224,39 @@ fastlane/test_output
 				en,
 				Base,
 			);
-			mainGroup = 580598781F79A8570093C8E3;
-			productRefGroup = 580598821F79A8570093C8E3 /* Products */;
+			mainGroup = 587FAD111F7D4B54006E55B3;
+			productRefGroup = 587FAD1B1F7D4B55006E55B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				580598801F79A8570093C8E3 /* HappyBird */,
-				5805989A1F79A8570093C8E3 /* HappyBirdTests */,
-				580598A51F79A8570093C8E3 /* HappyBirdUITests */,
+				587FAD191F7D4B54006E55B3 /* HappyBird */,
+				587FAD331F7D4B55006E55B3 /* HappyBirdTests */,
+				587FAD3E1F7D4B55006E55B3 /* HappyBirdUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5805987F1F79A8570093C8E3 /* Resources */ = {
+		587FAD181F7D4B54006E55B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				580598901F79A8570093C8E3 /* Main.storyboard in Resources */,
-				580598871F79A8570093C8E3 /* GameScene.sks in Resources */,
-				580598921F79A8570093C8E3 /* Assets.xcassets in Resources */,
-				580598951F79A8570093C8E3 /* LaunchScreen.storyboard in Resources */,
-				580598891F79A8570093C8E3 /* Actions.sks in Resources */,
+				587FAD291F7D4B55006E55B3 /* Main.storyboard in Resources */,
+				587FAD201F7D4B55006E55B3 /* GameScene.sks in Resources */,
+				587FAD2B1F7D4B55006E55B3 /* Assets.xcassets in Resources */,
+				587FAD2E1F7D4B55006E55B3 /* LaunchScreen.storyboard in Resources */,
+				587FAD221F7D4B55006E55B3 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		580598991F79A8570093C8E3 /* Resources */ = {
+		587FAD321F7D4B55006E55B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		580598A41F79A8570093C8E3 /* Resources */ = {
+		587FAD3D1F7D4B55006E55B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,60 +266,60 @@ fastlane/test_output
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5805987D1F79A8570093C8E3 /* Sources */ = {
+		587FAD161F7D4B54006E55B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5805988B1F79A8570093C8E3 /* GameScene.swift in Sources */,
-				5805988D1F79A8570093C8E3 /* GameViewController.swift in Sources */,
-				580598851F79A8570093C8E3 /* AppDelegate.swift in Sources */,
+				587FAD241F7D4B55006E55B3 /* GameScene.swift in Sources */,
+				587FAD261F7D4B55006E55B3 /* GameViewController.swift in Sources */,
+				587FAD1E1F7D4B55006E55B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		580598971F79A8570093C8E3 /* Sources */ = {
+		587FAD301F7D4B55006E55B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				580598A01F79A8570093C8E3 /* HappyBirdTests.swift in Sources */,
+				587FAD391F7D4B55006E55B3 /* HappyBirdTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		580598A21F79A8570093C8E3 /* Sources */ = {
+		587FAD3B1F7D4B55006E55B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				580598AB1F79A8570093C8E3 /* HappyBirdUITests.swift in Sources */,
+				587FAD441F7D4B55006E55B3 /* HappyBirdUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5805989D1F79A8570093C8E3 /* PBXTargetDependency */ = {
+		587FAD361F7D4B55006E55B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 580598801F79A8570093C8E3 /* HappyBird */;
-			targetProxy = 5805989C1F79A8570093C8E3 /* PBXContainerItemProxy */;
+			target = 587FAD191F7D4B54006E55B3 /* HappyBird */;
+			targetProxy = 587FAD351F7D4B55006E55B3 /* PBXContainerItemProxy */;
 		};
-		580598A81F79A8570093C8E3 /* PBXTargetDependency */ = {
+		587FAD411F7D4B55006E55B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 580598801F79A8570093C8E3 /* HappyBird */;
-			targetProxy = 580598A71F79A8570093C8E3 /* PBXContainerItemProxy */;
+			target = 587FAD191F7D4B54006E55B3 /* HappyBird */;
+			targetProxy = 587FAD401F7D4B55006E55B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5805988E1F79A8570093C8E3 /* Main.storyboard */ = {
+		587FAD271F7D4B55006E55B3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5805988F1F79A8570093C8E3 /* Base */,
+				587FAD281F7D4B55006E55B3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		580598931F79A8570093C8E3 /* LaunchScreen.storyboard */ = {
+		587FAD2C1F7D4B55006E55B3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				580598941F79A8570093C8E3 /* Base */,
+				587FAD2D1F7D4B55006E55B3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -407,7 +327,7 @@ fastlane/test_output
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		580598AD1F79A8570093C8E3 /* Debug */ = {
+		587FAD461F7D4B55006E55B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -464,7 +384,7 @@ fastlane/test_output
 			};
 			name = Debug;
 		};
-		580598AE1F79A8570093C8E3 /* Release */ = {
+		587FAD471F7D4B55006E55B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -514,7 +434,7 @@ fastlane/test_output
 			};
 			name = Release;
 		};
-		580598B01F79A8570093C8E3 /* Debug */ = {
+		587FAD491F7D4B55006E55B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -524,11 +444,11 @@ fastlane/test_output
 				PRODUCT_BUNDLE_IDENTIFIER = me.ph7.HappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		580598B11F79A8570093C8E3 /* Release */ = {
+		587FAD4A1F7D4B55006E55B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -538,11 +458,11 @@ fastlane/test_output
 				PRODUCT_BUNDLE_IDENTIFIER = me.ph7.HappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		580598B31F79A8570093C8E3 /* Debug */ = {
+		587FAD4C1F7D4B55006E55B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -558,7 +478,7 @@ fastlane/test_output
 			};
 			name = Debug;
 		};
-		580598B41F79A8570093C8E3 /* Release */ = {
+		587FAD4D1F7D4B55006E55B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -574,7 +494,7 @@ fastlane/test_output
 			};
 			name = Release;
 		};
-		580598B61F79A8570093C8E3 /* Debug */ = {
+		587FAD4F1F7D4B55006E55B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -589,7 +509,7 @@ fastlane/test_output
 			};
 			name = Debug;
 		};
-		580598B71F79A8570093C8E3 /* Release */ = {
+		587FAD501F7D4B55006E55B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -607,43 +527,43 @@ fastlane/test_output
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5805987C1F79A8570093C8E3 /* Build configuration list for PBXProject "HappyBird" */ = {
+		587FAD151F7D4B54006E55B3 /* Build configuration list for PBXProject "HappyBird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				580598AD1F79A8570093C8E3 /* Debug */,
-				580598AE1F79A8570093C8E3 /* Release */,
+				587FAD461F7D4B55006E55B3 /* Debug */,
+				587FAD471F7D4B55006E55B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		580598AF1F79A8570093C8E3 /* Build configuration list for PBXNativeTarget "HappyBird" */ = {
+		587FAD481F7D4B55006E55B3 /* Build configuration list for PBXNativeTarget "HappyBird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				580598B01F79A8570093C8E3 /* Debug */,
-				580598B11F79A8570093C8E3 /* Release */,
+				587FAD491F7D4B55006E55B3 /* Debug */,
+				587FAD4A1F7D4B55006E55B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		580598B21F79A8570093C8E3 /* Build configuration list for PBXNativeTarget "HappyBirdTests" */ = {
+		587FAD4B1F7D4B55006E55B3 /* Build configuration list for PBXNativeTarget "HappyBirdTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				580598B31F79A8570093C8E3 /* Debug */,
-				580598B41F79A8570093C8E3 /* Release */,
+				587FAD4C1F7D4B55006E55B3 /* Debug */,
+				587FAD4D1F7D4B55006E55B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		580598B51F79A8570093C8E3 /* Build configuration list for PBXNativeTarget "HappyBirdUITests" */ = {
+		587FAD4E1F7D4B55006E55B3 /* Build configuration list for PBXNativeTarget "HappyBirdUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				580598B61F79A8570093C8E3 /* Debug */,
-				580598B71F79A8570093C8E3 /* Release */,
+				587FAD4F1F7D4B55006E55B3 /* Debug */,
+				587FAD501F7D4B55006E55B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 580598791F79A8570093C8E3 /* Project object */;
+	rootObject = 587FAD121F7D4B54006E55B3 /* Project object */;
 }
