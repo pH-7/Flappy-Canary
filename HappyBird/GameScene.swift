@@ -29,12 +29,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
     override func didMove(to view: SKView) -> Void {
         self.physicsWorld.contactDelegate = self
-
-        setUpGame()
-
+        initializeGame()
     }
 
-    func setUpGame() -> Void {
+    func initializeGame() -> Void {
         timer = Timer.scheduledTimer(
             timeInterval: 3,
              target: self,
@@ -238,7 +236,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         } else {
             startGame()
             removeAllChildren()
-            setUpGame()
+            initializeGame()
         }
     }
 
