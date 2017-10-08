@@ -74,14 +74,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         self.setScoreStyle()
 
-        scoreLabel.position = CGPoint(x: self.frame.midX, y: self.frame.height / 2 - 70)
+        scoreLabel.position = CGPoint(x: self.frame.midX, y: self.frame.height / 2 - 80)
         self.addChild(scoreLabel)
     }
 
     func drawBackground() -> Void {
         let bgTexture = SKTexture(imageNamed: "background.png")
 
-        let moveBgAnimation = SKAction.move(by: CGVector(dx: -bgTexture.size().width, dy: 0), duration: 7)
+        let moveBgAnimation = SKAction.move(by: CGVector(dx: -bgTexture.size().width, dy: 0), duration: bgAnimatedInSecs)
         let shiftBgAnimation = SKAction.move(by: CGVector(dx: bgTexture.size().width, dy: 0), duration: 0)
         let bgAnimation = SKAction.sequence([moveBgAnimation, shiftBgAnimation])
         let moveBgForever = SKAction.repeatForever(bgAnimation)
