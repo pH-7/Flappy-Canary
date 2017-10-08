@@ -12,6 +12,7 @@ import GameplayKit
 class GameScene: SKScene, SKPhysicsContactDelegate {
     let birdTimePerFrame = 0.1
     let maxTimeBgMoving: CGFloat = 3
+    let bgAnimatedInSecs: TimeInterval = 7
 
     var bird: SKSpriteNode = SKSpriteNode()
     var background: SKSpriteNode = SKSpriteNode()
