@@ -15,7 +15,14 @@ YES, I'm **[Pierre-Henry Soria](http://ph7.me/)** :smiley:
 You can send an email at **HI {AT} pH7 [D0T] ME**
 
 
+## Behind the scenes, when coding Flappy Canary App 🦜
+
+![Coding Time, at Starbucks, September 28th 2017](coding-session-starbucks-sept-28-2017.jpg)
+
+![Coding Time, at Starbucks, September 29th 2017](coding-session-starbucks-sept-29-2017.jpg)
+
 ![Flappy Bird Clone Game, iOS 11, Swift 4](flappycanary.png)
+
 
 ## License
 
